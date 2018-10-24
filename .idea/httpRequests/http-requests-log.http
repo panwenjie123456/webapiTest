@@ -1,0 +1,547 @@
+GET http://localhost:3000/books/ch
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDAzMjY4MTMsImV4cCI6MTU0MDMyODI1M30.VpioBNf4ROuaeUrgkchxoHoSK6JFdchKPmYlat_oR_g
+
+{"name":"test","password":"password","admin":true}
+
+<> 2018-10-23T100329.200.json
+
+###
+
+GET http://localhost:3000/books/ch
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDAzMjY4MTMsImV4cCI6MTU0MDMyODI1M30.VpioBNf4ROuaeUrgkchxoHoSK6JFdchKPmYlat_oR_g
+
+{"name":"test","password":"password","admin":true}
+
+<> 2018-10-23T100216.200.json
+
+###
+
+GET http://localhost:3000/books/ch
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDAzMjY4MTMsImV4cCI6MTU0MDMyODI1M30.VpioBNf4ROuaeUrgkchxoHoSK6JFdchKPmYlat_oR_g
+
+{"name":"test","password":"password","admin":true}
+
+<> 2018-10-23T100134.200.json
+
+###
+
+GET http://localhost:3000/books/ch
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDAzMjY4MTMsImV4cCI6MTU0MDMyODI1M30.VpioBNf4ROuaeUrgkchxoHoSK6JFdchKPmYlat_oR_g
+
+{"name":"test","password":"password","admin":true}
+
+<> 2018-10-23T100113.200.json
+
+###
+
+GET http://localhost:3000/books/ch
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDAzMjY4MTMsImV4cCI6MTU0MDMyODI1M30.VpioBNf4ROuaeUrgkchxoHoSK6JFdchKPmYlat_oR_g
+
+{"name":"test","password":"password","admin":true}
+
+<> 2018-10-23T100052.500.html
+
+###
+
+GET http://localhost:3000/books/ch
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDAzMjY4MTMsImV4cCI6MTU0MDMyODI1M30.VpioBNf4ROuaeUrgkchxoHoSK6JFdchKPmYlat_oR_g
+
+{"name":"test","password":"password","admin":true}
+
+<> 2018-10-23T095944.500.html
+
+###
+
+GET http://localhost:3000/books/ch
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDAzMjY4MTMsImV4cCI6MTU0MDMyODI1M30.VpioBNf4ROuaeUrgkchxoHoSK6JFdchKPmYlat_oR_g
+
+{"name":"test","password":"password","admin":true}
+
+###
+
+GET http://localhost:3000/books/ch
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+{"name":"test","password":"password","admin":true}
+
+<> 2018-10-23T095447.403.json
+
+###
+
+POST http://localhost:3000/books/authenticate
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+{"name":"test","password":"password","admin":true}
+
+<> 2018-10-23T093218.200.json
+
+###
+
+POST http://localhost:3000/books/authenticate
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+{"name":"test","password":"password"}
+
+<> 2018-10-23T092900.200.json
+
+###
+
+POST http://localhost:3000/bookmanage/authenticate
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+{"name":"test","password":"password"}
+
+<> 2018-10-23T092609.404.html
+
+###
+
+POST http://localhost:3000/api/authenticate
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+{"name":"test","password":"password"}
+
+<> 2018-10-23T092510.404.html
+
+###
+
+POST http://localhost:3000/api/authenticate
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/x-www-form-urlencoded
+
+{"name":"test","password":"password"}
+
+<> 2018-10-23T092457.404.html
+
+###
+
+GET http://localhost:3000/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"No":1,"book_name":"namechanged","amount":102,"author":"zhongbencong","publisher_name":"changed","price": 50}
+
+<> 2018-10-23T085427.200.json
+
+###
+
+PUT http://localhost:3000/books/5bc9fcdaf7ca9c0dfe946bba
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"No":1,"book_name":"namechanged","amount":102,"author":"zhongbencong","publisher_name":"changed","price": 50}
+
+<> 2018-10-23T085421.200.json
+
+###
+
+GET http://localhost:3000/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"panwenjie","password":"123","admin":true}
+
+<> 2018-10-23T085226.200.json
+
+###
+
+POST http://localhost:3000/setup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"panwenjie","password":"123","admin":true}
+
+<> 2018-10-23T081250.404.html
+
+###
+
+POST http://localhost:3000/setup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"panwenjie","password":"123","admin":true}
+
+###
+
+GET http://localhost:3000/setup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"panwenjie","password":"123","admin":true}
+
+<> 2018-10-23T075039.200.json
+
+###
+
+GET http://localhost:3000/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-22T081843.200.json
+
+###
+
+GET http://localhost:3000/books/1/detail
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-22T081840.200.json
+
+###
+
+GET http://localhost:3000/books/1/detail
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-22T102622.200.json
+
+###
+
+GET http://localhost:3000/booktype/b
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T052224.200.json
+
+###
+
+GET http://localhost:3000/booktype/b
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T052127.500.json
+
+###
+
+GET http://localhost:3000/booktype/b
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T052040.200.json
+
+###
+
+GET http://localhost:3000/publisher/b
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T052030.200.json
+
+###
+
+GET http://localhost:3000/books/1/bl
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051844.200.json
+
+###
+
+GET http://localhost:3000/books/1/bl
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051719.200.json
+
+###
+
+GET http://localhost:3000/books/detail
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051714.200.json
+
+###
+
+GET http://localhost:3000/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051706.200.json
+
+###
+
+GET http://localhost:3000/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+###
+
+GET http://localhost:3000/books/b
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051533.200.json
+
+###
+
+GET http://localhost:3000/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051528.200.json
+
+###
+
+GET http://localhost:3000/books/bloc
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051455.200.json
+
+###
+
+GET http://localhost:3000/books/bloc
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+###
+
+GET http://localhost:3000/books/blo
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+###
+
+GET http://localhost:3000/books/bl
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051424.200.json
+
+###
+
+GET http://localhost:3000/books/o
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051341.200.json
+
+###
+
+GET http://localhost:3000/bookso
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051337.404.html
+
+###
+
+GET http://localhost:3000/books/bl
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051334.200.json
+
+###
+
+GET http://localhost:3000/books/bl
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051333.200.json
+
+###
+
+GET http://localhost:3000/books/bl
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051318.200.json
+
+###
+
+GET http://localhost:3000/books/blockchain
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051156.200.json
+
+###
+
+GET http://localhost:3000/books/block
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051154.200.json
+
+###
+
+GET http://localhost:3000/books/blo
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051151.200.json
+
+###
+
+GET http://localhost:3000/books/b
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051141.200.json
+
+###
+
+GET http://localhost:3000/books/1/b
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051139.404.html
+
+###
+
+GET http://localhost:3000/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051133.200.json
+
+###
+
+GET http://localhost:3000/books/b
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051125-2.200.json
+
+###
+
+GET http://localhost:3000/books/b
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisher01","location":"st.winter","year":1997}
+
+<> 2018-10-19T051125-1.200.json
+
+###
+

@@ -1,0 +1,18 @@
+{
+  "errmsg": {
+    "name": "MongoError",
+    "message": "$regex has to be a string",
+    "ok": 0,
+    "errmsg": "$regex has to be a string",
+    "code": 2,
+    "codeName": "BadValue",
+    "operationTime": "6614102163842924545",
+    "$clusterTime": {
+      "clusterTime": "6614102163842924545",
+      "signature": {
+        "hash": "l1uuayCxcGfdpPmHPyVjM6kEXjI=",
+        "keyId": "6609986919453425665"
+      }
+    }
+  }
+}
