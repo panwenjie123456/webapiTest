@@ -5,6 +5,26 @@ Content-Type: application/json
 
 {"name":"test","password":"password","admin":true}
 
+<> 2018-10-25T070134.200.html
+
+###
+
+GET http://localhost:3000/books\
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"test","password":"password","admin":true}
+
+###
+
+GET http://localhost:3000/books
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"test","password":"password","admin":true}
+
 <> 2018-10-25T060511.200.html
 
 ###
@@ -516,28 +536,6 @@ Content-Type: application/json
 {"publisher_name":"publisher01","location":"st.winter","year":1997}
 
 <> 2018-10-19T051533.200.json
-
-###
-
-GET http://localhost:3000/books
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"publisher_name":"publisher01","location":"st.winter","year":1997}
-
-<> 2018-10-19T051528.200.json
-
-###
-
-GET http://localhost:3000/books/bloc
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"publisher_name":"publisher01","location":"st.winter","year":1997}
-
-<> 2018-10-19T051455.200.json
 
 ###
 

@@ -68,6 +68,7 @@ describe('POST/books', function () {
                 });
 
         });
+
        /* after(function  (done) {
             chai.request(server)
                 .get('/books')
@@ -93,5 +94,31 @@ describe('POST/books', function () {
                     done();
                 });
         });
-    });
     */
+    });
+   
+describe('put/books/:id', () => {
+        it('should return a message and the book detail updated', function (done) {
+            chai.request(server)
+                .put('/books/5bd1f08bedb58415c9795b24')
+                .end(function (err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property('message').equal('book updated!' );
+                    done();
+                });
+        });
+    });
+describe('delete/books/:id',() => {
+            it('should return 404 of invalidedeletion', function(done) {
+                chai.request(server)
+                    .delete('/book/5bd1f08bedb58415c9795b24 ')
+                    .end(function(err, res) {
+                        expect(res).to.have.status(404);
+                        expect({ foo: 'book' }).to.deep.equal({ foo: 'book' });
+                        
+                       // expect(res.body).to.have.property('message').equal('Book NOT DELETED!');
+                        done();
+                    });
+            });
+        });
+ 
