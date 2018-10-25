@@ -22,11 +22,14 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
+
+
 // book1
 app.get('/books', bookmanage.findAll);
-app.get('/books/votes', bookmanage.findTotalVotes);
+app.get('/books/amounts', bookmanage.findTotalamounts);
 app.post('/books',bookmanage.addBook);
-app.put('/books/:id/vote', bookmanage.incrementUpvotes);
+app.put('/books/:id/add', bookmanage.incrementamount);
 app.delete('/books/:id', bookmanage.deleteBook);
 //book2
 app.get('/books/1/detail', bookmanage.findDetail);

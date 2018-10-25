@@ -6,8 +6,7 @@ let BookSchema = new mongoose.Schema({
     author:String,
     publisher_name:String,
     price:Number,
-    amount:Number,
-    upvotes: {type: Number, default: 100}
+    amount: {type: Number, default: 50}
     },
     { collection: 'book' });
 

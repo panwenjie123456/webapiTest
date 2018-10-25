@@ -64,11 +64,8 @@ router.returntoken=(req, res) => {
 
 
 
-
 router.findAll = (req, res) => {
     // Return a JSON representation of our list
-
-
     Book.find(function(err, books) {
         if (err)
             res.send(err);
@@ -106,13 +103,8 @@ router.findByName = (req,res) => {
 }
 
 
-/*
-function getTotalVotes(array) {
-    let totalVotes = 0;
-    array.forEach(function(obj) { totalVotes += obj.upvotes; });
-    return totalVotes;
-}
-*/
+
+
 router.addBook = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
@@ -120,10 +112,10 @@ router.addBook = (req, res) => {
     var book = new Book();
     book.No = req.body.No;
     book.book_name = req.body.book_name;
-    book.amount = req.body.amount;
     book.author = req.body.author;
     book.publisher_name = req.body.publisher_name;
     book.price = req.body.price;
+    book.amount = req.body.amount;
     book.save(function(err) {
         if (err)
             res.json({ message: 'Book NOT Added!', errmsg : err } );
@@ -163,32 +155,32 @@ router.findDetail = (req, res) => {
     });
 }
 
-router.incrementUpvotes = (req, res) => {
+router.incrementamount = (req, res) => {
     // Find the relevant donation based on params id passed in
     // Add 1 to upvotes property of the selected donation based on its id
     var book = getByValue(books,req.params.id);
 
     if (book != null) {
-        book.upvotes += 1;
-        res.json({status : 200, message : 'UpVote Successful' , book : book });
+        book.amount += 1;
+        res.json({status : 200, message : 'update amount Successful' , book : book });
     }
     else
-        res.send('Book NOT Found - UpVote NOT Successful!!');
+        res.send('Book NOT Found - amount updated NOT Successful!!');
 
 }
 
-router.incrementUpvotes = (req, res) => {
+router.incrementamount = (req, res) => {
 
     Book.findById(req.params.id, function(err,book) {
         if (err)
             res.json({ message: 'Book NOT Found!', errmsg : err } );
         else {
-            book.upvotes += 1;
+            book.amount += 1;
             book.save(function (err) {
                 if (err)
-                    res.json({ message: 'Book NOT UpVoted!', errmsg : err } );
+                    res.json({ message: 'Book amount NOT updated!', errmsg : err } );
                 else
-                    res.json({ message: 'Book Successfully Upvoted!', data: book });
+                    res.json({ message: 'Book Successfully updated!', data: book });
             });
         }
     });
@@ -201,10 +193,10 @@ router.update = (req, res) => {
             res.send(err);
         book.No = req.body.No;
         book.book_name = req.body.book_name;
-        book.amount = req.body.amount;
         book.author = req.body.author;
         book.publisher_name = req.body.publisher_name;
         book.price = req.body.price;
+        book.amount = req.body.amount;
         book.save(function(err){
             if(err)
                 res.send(err);
@@ -232,14 +224,19 @@ router.deleteAll = (req, res) => {
             res.json({ message: 'Book Successfully Deleted!'});
     });
 }
+function getTotalamounts(array) {
+    let totalamounts = 0;
+    array.forEach(function(obj) { totalamounts += obj.amount; });
+    return totalamounts;
+}
 
-router.findTotalVotes = (req, res) => {
+router.findTotalamounts = (req, res) => {
 
     Book.find(function(err, books) {
         if (err)
             res.send(err);
         else
-            res.json({ totalvotes : getTotalVotes(books) });
+            res.json({ totalamounts : getTotalamounts(books) });
     });
 }
 

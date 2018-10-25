@@ -113,7 +113,7 @@ describe('delete/books/:id',() => {
                 chai.request(server)
                     .delete('/book/5bd1f08bedb58415c9795b24 ')
                     .end(function(err, res) {
-                        expect(res).to.have.status(404);
+                        expect(res).to.have.status(404);//quqiao
                         expect({ foo: 'book' }).to.deep.equal({ foo: 'book' });
                         
                        // expect(res.body).to.have.property('message').equal('Book NOT DELETED!');
