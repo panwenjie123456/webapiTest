@@ -3,10 +3,10 @@
     "upvotes": 0,
     "_id": "5bc9fcdaf7ca9c0dfe946bba",
     "No": 1,
-    "book_name": "blockchain",
+    "book_name": "namechanged",
     "amount": 102,
     "author": "zhongbencong",
-    "publisher_name": "publisher01",
+    "publisher_name": "changed",
     "price": 50,
     "__v": 0
   }

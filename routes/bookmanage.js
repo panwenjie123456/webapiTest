@@ -90,7 +90,7 @@ router.findByName = (req,res) => {
     var count = 0;
     Book.count(_filter,function (err,doc) {
         if(err){
-            res.json({errmsg:err});
+            res.send({message: 'Book NOT founded!'});
         }else{
             count =doc;
         }
@@ -98,7 +98,7 @@ router.findByName = (req,res) => {
     });
     Book.find(_filter).limit(10).exec(function (err,books) {
         if (err) {
-            res.json({errmsg: err});
+            res.send({message: 'Book NOT founded!'});
         } else {
             res.send(JSON.stringify(books, null, 5));
         }
@@ -156,7 +156,7 @@ router.findDetail = (req, res) => {
         }],function (err,book) {
 
         if (err) {
-            res.json({errmsg: err});
+            res.send({message: 'Book NOT founded!'});
         } else {
             res.send(JSON.stringify(book, null, 5));
         }

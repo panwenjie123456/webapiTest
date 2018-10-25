@@ -4,11 +4,11 @@ const config = require("../config");
 var router = express.Router();
 
 router.use(function(req, res, next) {
-    // do logging
-    console.log('Something is happening.');
-  //  next(); // make sure we go to the next routes and don't stop here
 
 
+    next(); // make sure we go to the next routes and don't stop here
+});
+/*
     // check header or url parameters or post parameters for token
     var token = req.body.token || req.query.token || req.headers['x-access-token'];
 
