@@ -223,6 +223,16 @@ router.deleteBook = (req, res) => {
     });
 }
 
+router.deleteAll = (req, res) => {
+
+    Book.remove({}, function(err) {
+        if (err)
+            res.json({ message: 'Book NOT DELETED!', errmsg : err } );
+        else
+            res.json({ message: 'Book Successfully Deleted!'});
+    });
+}
+
 router.findTotalVotes = (req, res) => {
 
     Book.find(function(err, books) {

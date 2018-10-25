@@ -33,6 +33,7 @@ app.get('/books/1/detail', bookmanage.findDetail);
 app.get('/books/:book_name', bookmanage.findByName);
 app.put('/books/:id', bookmanage.update);
 app.post('/books/authenticate', bookmanage.returntoken);
+app.delete('/books', bookmanage.deleteAll);
 //booktype1
 app.get('/booktype', booktypemanage.findAll);
 app.get('/booktype/votes', booktypemanage.findTotalVotes);
