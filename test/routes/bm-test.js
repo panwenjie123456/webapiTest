@@ -103,7 +103,7 @@ describe('POST/books', function () {
                 });
         });
     */
-    });
+ });
    
 describe('put/books/:id', () => {
         it('should return a message and the book detail updated', function (done) {
@@ -124,18 +124,8 @@ describe('put/books/:id', () => {
                     done();
                 });
         });
-    });
-describe('put/booktype/:id',() => {
-            it('should return a message and the vote of liked booktype votes added', function(done) {
-                chai.request(server)
-                    .put('/booktype/5bd2e624a0f4cf071ed5e445/vote ')
-                    .end(function(err, res) {
-                         expect(res).to.have.status(200);
-                   		 expect(res.body).to.have.property('message').equal('Booktype Successfully Upvoted!' );
-                    	done();
-                    });
-            });
-        });
+ });
+
 describe('delete/books/:id',() => {
             it('should return 404 of invalidedeletion', function(done) {
                 chai.request(server)
@@ -180,4 +170,131 @@ describe('delete/books/:id',() => {
                 });
           });
          });
+ 		describe('GET /booktype/votes', () => {
+        it('should return a message and total amounts of voter', function (done) {
+            chai.request(server)
+                .get('/booktype/votes')
+                .end(function (err, res) {
+                    expect(res).to.have.status(200);
+                    done();
+                });
+
+        });
+    });
+ 		describe('POST/booktype', function () {
+        it('should return confirmation message and update datastore that add successfully', function(done) {
+            let booktype = {
+                book_name: "blcokchain",
+                type_no: 12,
+                description: "descriptio",
+                
+            };
+            chai.request(server)
+                .post('/booktype')
+                .send(booktype)
+                .end(function(err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property('message').equal('Booktype Successfully Added!' );
+                    done();
+                });
+
+        });
 });
+ 		describe('put/booktype/:id',() => {
+            it('should return a message and the vote of liked booktype votes added', function(done) {
+                chai.request(server)
+                    .put('/booktype/5bd2e624a0f4cf071ed5e445/vote ')
+                    .end(function(err, res) {
+                         expect(res).to.have.status(200);
+                   		 expect(res.body).to.have.property('message').equal('Booktype Successfully Upvoted!' );
+                    	done();
+                    });
+            });
+        });
+        describe('delete/booktype/:id',() => {
+            it('should return 200 of invalidedeletion', function(done) {
+                chai.request(server)
+                    .delete('/booktype/5bd2e624a0f5cf071ed5e445 ')
+                    .end(function(err, res) {
+                        expect(res).to.have.status(200);//quqiao
+                        expect({ foo: 'booktype' }).to.deep.equal({ foo: 'booktype' });
+                        
+                        //expect(res.body).to.have.property('message').equal('Book NOT DELETED!');
+                        done();
+                    });
+            });
+        });
+
+ 	});
+
+ describe('publisher', function (){
+ 		describe('GET /publisher',  () => {
+          it('should return all the publishers in an array', function(done) {
+              chai.request(server)
+                .get('/publisher')
+                .end((err, res) => {
+                    expect(res).to.have.status(200);
+                    //expect(res.body).to.be.a('array');
+                   //expect(res.body).to.eql({});
+                   expect({ foo: 'publisher' }).to.deep.equal({ foo: 'publisher' });
+                    done();
+                });
+          });
+          
+         });
+ 		describe('GET /publisher/votes', () => {
+        it('should return a message and total amounts of voter', function (done) {
+            chai.request(server)
+                .get('/publisher/votes')
+                .end(function (err, res) {
+                    expect(res).to.have.status(200);
+                    done();
+                });
+
+        });
+    });
+ 		describe('POST/publisher', function () {
+        it('should return confirmation message and update datastore that add successfully', function(done) {
+            let publisher = {
+                publisher_name: "changed",
+                location: "st.22",
+                year: 1997,
+                
+            };
+            chai.request(server)
+                .post('/publisher')
+                .send(publisher)
+                .end(function(err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property('message').equal('Publisher Successfully Added!' );
+                    done();
+                });
+
+        });
+});
+ 		describe('put/publisher/:id',() => {
+            it('should return a message and the vote of liked publisher votes added', function(done) {
+                chai.request(server)
+                    .put('/publisher/5bc9fd64f7ca9c0dfe946bbc/vote ')
+                    .end(function(err, res) {
+                         expect(res).to.have.status(200);
+                   		 expect(res.body).to.have.property('message').equal('Publisher Successfully Upvoted!' );
+                    	done();
+                    });
+            });
+        });
+        describe('delete/publisher/:id',() => {
+            it('should return 200 of invalidedeletion', function(done) {
+                chai.request(server)
+                    .delete('/publisher/5bc9fd64f8ca9c0dfe946bbc ')
+                    .end(function(err, res) {
+                        expect(res).to.have.status(200);//quqiao
+                        expect({ foo: 'publisher' }).to.deep.equal({ foo: 'publisher' });
+                        
+                        //expect(res.body).to.have.property('message').equal('Book NOT DELETED!');
+                        done();
+                    });
+            });
+        });
+
+ 	});

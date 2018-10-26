@@ -1,3 +1,69 @@
+PUT http://localhost:3000/publisher/5bc9fd64f7ca9c0dfe946bbc/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"book_name":"blockchain","type_no":22,"description":"blockcanin"}
+
+<> 2018-10-26T113019-2.200.json
+
+###
+
+PUT http://localhost:3000/publisher/5bc9fd64f7ca9c0dfe946bbc/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"book_name":"blockchain","type_no":22,"description":"blockcanin"}
+
+<> 2018-10-26T113019-1.200.json
+
+###
+
+PUT http://localhost:3000/publisher/5bc9fd64f7ca9c0dfe946bbc/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"book_name":"blockchain","type_no":22,"description":"blockcanin"}
+
+<> 2018-10-26T113019.200.json
+
+###
+
+PUT http://localhost:3000/publisher/5bc9fd64f7ca9c0dfe946bbc/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"book_name":"blockchain","type_no":22,"description":"blockcanin"}
+
+<> 2018-10-26T113018.200.json
+
+###
+
+PUT http://localhost:3000/publisher/5bc9fd64f7ca9c0dfe946bbc/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"book_name":"blockchain","type_no":22,"description":"blockcanin"}
+
+<> 2018-10-26T113017.200.json
+
+###
+
+GET http://localhost:3000/publisher
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"book_name":"blockchain","type_no":22,"description":"blockcanin"}
+
+<> 2018-10-26T113009.200.json
+
+###
+
 PUT http://localhost:3000/booktype/5bd2e624a0f4cf071ed5e445/vote
 Accept: */*
 Cache-Control: no-cache
@@ -461,72 +527,6 @@ Content-Type: application/json
 {"name":"test","password":"password","admin":true}
 
 <> 2018-10-25T110848-2.200.json
-
-###
-
-PUT http://localhost:3000/books/5bd1efd264085715a6348975/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-<> 2018-10-25T110848-1.200.json
-
-###
-
-PUT http://localhost:3000/books/5bd1efd264085715a6348975/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-<> 2018-10-25T110848.200.json
-
-###
-
-PUT http://localhost:3000/books/5bd1efd264085715a6348975/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-<> 2018-10-25T110847.200.json
-
-###
-
-PUT http://localhost:3000/books/5bd1efd264085715a6348975/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-<> 2018-10-25T110845.200.json
-
-###
-
-PUT http://localhost:3000/books/5bd1efd264085715a6348975/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-<> 2018-10-25T110844.200.json
-
-###
-
-PUT http://localhost:3000/books/5bd1efd264085715a6348975/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-<> 2018-10-25T110833.200.json
 
 ###
 
