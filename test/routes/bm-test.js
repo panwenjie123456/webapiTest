@@ -118,7 +118,27 @@ describe('put/books/:id', () => {
                     done();
                 });
         });
+        it('should return a message and the book amounts added', function (done) {
+            chai.request(server)
+                .put('/books/5bd243ae9958ab2558bc2d43/add')
+                .end(function (err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property('message').equal('Book Successfully updated!' );
+                    done();
+                });
+        });
     });
+describe('put/booktype/:id',() => {
+            it('should return a message and the vote of liked booktype votes added', function(done) {
+                chai.request(server)
+                    .put('/booktype/5bd2e624a0f4cf071ed5e445/vote ')
+                    .end(function(err, res) {
+                         expect(res).to.have.status(200);
+                   		 expect(res.body).to.have.property('message').equal('Booktype Successfully Upvoted!' );
+                    	done();
+                    });
+            });
+        });
 describe('delete/books/:id',() => {
             it('should return 404 of invalidedeletion', function(done) {
                 chai.request(server)
