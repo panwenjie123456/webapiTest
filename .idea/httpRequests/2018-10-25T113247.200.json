@@ -1,0 +1,12 @@
+{
+  "message": "Book Successfully Added!",
+  "data": {
+    "_id": "5bd2448efde33625bb532c80",
+    "No": 1,
+    "book_name": "blockchain",
+    "author": "zhongbencong",
+    "publisher_name": "publisherB",
+    "price": 50,
+    "__v": 0
+  }
+}

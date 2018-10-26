@@ -209,7 +209,7 @@ router.deleteBook = (req, res) => {
 
     Book.findByIdAndRemove(req.params.id, function(err) {
         if (err)
-            res.send({ message: 'Book NOT DELETED!' } );
+            res.json({ message: 'Book NOT DELETED!', errmsg : err } );
         else
             res.json({ message: 'Book Successfully Deleted!'});
     });

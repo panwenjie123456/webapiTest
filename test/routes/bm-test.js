@@ -19,8 +19,6 @@ describe('Books', function (){
                     done();
                 });
           });
-      });
-      describe('GET /books',  () => {
           it('should return one chosen book ', function(done) {
               chai.request(server)
                 .get('/books/ch')
@@ -32,8 +30,6 @@ describe('Books', function (){
                     done();
                 });
           });
-      });
-      describe('GET /books',  () => {
           it('should return all details of a book ', function(done) {
               chai.request(server)
                 .get('/books/1/detail')
@@ -45,7 +41,21 @@ describe('Books', function (){
                     done();
                 });
           });
-      });
+      });   
+      describe('GET /books/amounts', () => {
+        it('should return a message and total amounts of books', function (done) {
+            chai.request(server)
+                .get('/books/amounts')
+                .end(function (err, res) {
+                    expect(res).to.have.status(200);
+                    done();
+                });
+
+        });
+    });
+
+
+
 }); 
 
 describe('POST/books', function () {
@@ -56,7 +66,8 @@ describe('POST/books', function () {
           	"amount": 102,
           	"author": "zhongbencong",
           	"publisher_name": "changed",
-          	"price": 50
+          	"price": 50,
+          	"amount": 102
             };
             chai.request(server)
                 .post('/books')
@@ -100,7 +111,7 @@ describe('POST/books', function () {
 describe('put/books/:id', () => {
         it('should return a message and the book detail updated', function (done) {
             chai.request(server)
-                .put('/books/5bd1f08bedb58415c9795b24')
+                .put('/books/5bd243ae9958ab2558bc2d43')
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     expect(res.body).to.have.property('message').equal('book updated!' );
@@ -116,7 +127,7 @@ describe('delete/books/:id',() => {
                         expect(res).to.have.status(404);//quqiao
                         expect({ foo: 'book' }).to.deep.equal({ foo: 'book' });
                         
-                       // expect(res.body).to.have.property('message').equal('Book NOT DELETED!');
+                        //expect(res.body).to.have.property('message').equal('Book NOT DELETED!');
                         done();
                     });
             });
