@@ -10,7 +10,7 @@ CRUD Node Server[use bookmanage as example,it contains all functions except one]
      get:
         1. /books : find all of books
         2. /books/1/detail : find all of the book with other models' data(Multi-table query) 
-        3. /book/:book_name : find book details by entering any words in book name(fuzzy search)
+        3. /books/:book_name : find book details by entering any words in book name(fuzzy search)
         4. /books/amounts : show the amounts of book in the system.
         5. /publisher/:id[the one not included in book] : find book detail by id
      post:
@@ -25,7 +25,7 @@ CRUD Node Server[use bookmanage as example,it contains all functions except one]
         2. /books : delete all information in collection
         
 [authentication]:
-   first, as administrator we should set username/password first because that is more secure than post.
+   first, as an administrator we should set username/password first because that is more secure than post.
    secondly we post user name/password for a token
    finaly we use token to authenticate the identity for opreations
    
@@ -36,5 +36,15 @@ Persistence :mongoose,mongodb,,deploy to github  heroku
 
 
 DX (Developer eXperience) :Automated testing /npm test---------->>git status persistent
-                           
+
+
+
+reference of technology:
+1.http://www.waitingfy.com/archives/4458
+2.https://www.jianshu.com/p/4814b9de4b12
+3.https://juejin.im/entry/58c3bfac570c35006d5b23dc
+4.https://coderge.com/articles/201701/node-restiful-api.html(above is authentication) 
+5.https://www.web-tinker.com/article/20851.html
+6.https://forum.leancloud.cn/t/rest-api-regex/6868
+                        
    

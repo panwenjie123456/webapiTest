@@ -108,7 +108,7 @@ describe('POST/books', function () {
 describe('put/books/:id', () => {
         it('should return a message and the book detail updated', function (done) {
             chai.request(server)
-                .put('/books/5bd243ae9958ab2558bc2d43')
+                .put('/books/5bd373d604569e0a9d669387')
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     expect(res.body).to.have.property('message').equal('book updated!' );
@@ -117,7 +117,7 @@ describe('put/books/:id', () => {
         });
         it('should return a message and the book amounts added', function (done) {
             chai.request(server)
-                .put('/books/5bd243ae9958ab2558bc2d43/add')
+                .put('/books/5bd373d604569e0a9d669387/add')
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     expect(res.body).to.have.property('message').equal('Book Successfully updated!' );
