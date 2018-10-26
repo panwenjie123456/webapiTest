@@ -29,6 +29,8 @@ CRUD Node Server[use bookmanage as example,it contains all functions except one]
    secondly we post user name/password for a token
    finaly we use token to authenticate the identity for opreations
    
+  one  of  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDA1NzkwNDMsImV4cCI6MTU0MDU4MDQ4M30.uA0VsITqy9KN4uzes8E1KWE60OJ5QaN74e4nA1rZ5JQ"
+   
 Persistence :mongoose,mongodb,,deploy to github  heroku
 
 
