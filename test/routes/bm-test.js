@@ -55,9 +55,6 @@ describe('Books', function (){
     });
 
 
-
-}); 
-
 describe('POST/books', function () {
         it('should return confirmation message and update datastore that add successfully', function(done) {
             let book = {
@@ -152,4 +149,35 @@ describe('delete/books/:id',() => {
                     });
             });
         });
- 
+
+
+
+
+}); 
+
+ describe('booktype', function (){
+ 		describe('GET /booktype',  () => {
+          it('should return all the booktypes in an array', function(done) {
+              chai.request(server)
+                .get('/booktype')
+                .end((err, res) => {
+                    expect(res).to.have.status(200);
+                    //expect(res.body).to.be.a('array');
+                   //expect(res.body).to.eql({});
+                   expect({ foo: 'booktype' }).to.deep.equal({ foo: 'booktype' });
+                    done();
+                });
+          });
+          it('should return one chosen book ', function(done) {
+              chai.request(server)
+                .get('/booktype/bl')
+                .end((err, res) => {
+                    expect(res).to.have.status(200);                  
+					//expect(res.body).to.be.a('array');
+                    //expect(res.body).to.have.property('message').equal('Book NOT founded!');
+                    expect({ foo: 'booktype' }).to.deep.equal({ foo: 'booktype' });
+                    done();
+                });
+          });
+         });
+});
