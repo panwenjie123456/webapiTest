@@ -1,3 +1,79 @@
+GET http://localhost:3000/setup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"william","password":"test","admin": true}
+
+###
+
+POST http://localhost:3000/setup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"william","password":"test","admin": true}
+
+###
+
+GET http://localhost:3000/setup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"william","password":"test","admin": true}
+
+<> 2018-10-26T073405.404.html
+
+###
+
+POST http://localhost:3000/setup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"william","password":"test","admin": true}
+
+###
+
+POST http://localhost:3000/setup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"william","password":"test","admin": true}
+
+###
+
+POST http://localhost:3000/setup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"william","password":"test"}
+
+###
+
+GET http://localhost:3000/setup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"william","password":"test"}
+
+<> 2018-10-26T073001.403.json
+
+###
+
+GET http://localhost:3000/setup
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"william","password":"test"}
+
+###
+
 PUT http://localhost:3000/publisher/5bc9fd64f7ca9c0dfe946bbc/vote
 Accept: */*
 Cache-Control: no-cache
@@ -451,82 +527,6 @@ Content-Type: application/json
 {"name":"test","password":"password","admin":true}
 
 <> 2018-10-25T111758.200.json
-
-###
-
-GET http://localhost:3000/publisher/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-<> 2018-10-25T111636.200.json
-
-###
-
-GET http://localhost:3000/books/amounts
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-###
-
-GET http://localhost:3000/books/amounts
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-###
-
-GET http://localhost:3000/books/amounts
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-###
-
-GET http://localhost:3000/books/amounts
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-###
-
-GET http://localhost:3000/books/amounts
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-###
-
-GET http://localhost:3000/books/amounts
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-###
-
-PUT http://localhost:3000/books/5bd1efd264085715a6348975/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"name":"test","password":"password","admin":true}
-
-<> 2018-10-25T110848-2.200.json
 
 ###
 

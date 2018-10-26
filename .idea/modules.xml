@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/donationweb-3.0.iml" filepath="$PROJECT_DIR$/.idea/donationweb-3.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bookmanage2.0authentication.iml" filepath="$PROJECT_DIR$/.idea/bookmanage2.0authentication.iml" />
     </modules>
   </component>
 </project>
