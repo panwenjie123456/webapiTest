@@ -1,0 +1,31 @@
+[
+  {
+    "_id": "5bd36cafd57e94094795d6ec",
+    "No": 2,
+    "book_name": "blockchain",
+    "author": "zhongbencong",
+    "publisher_name": "publisherA",
+    "price": 50,
+    "__v": 0,
+    "publisher_details": [
+      {
+        "_id": "5bd368b2bd3ca9086763d70f",
+        "upvotes": 0,
+        "publisher_name": "publisherA",
+        "location": "st.r",
+        "year": 1997,
+        "__v": 0
+      }
+    ],
+    "booktype_details": [
+      {
+        "_id": "5bd2e624a0f4cf071ed5e445",
+        "upvotes": 15,
+        "book_name": "blockchain",
+        "type_no": 22,
+        "description": "blockcanin",
+        "__v": 0
+      }
+    ]
+  }
+]

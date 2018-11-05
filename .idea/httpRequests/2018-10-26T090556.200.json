@@ -1,0 +1,11 @@
+{
+  "message": "Booktype Successfully Upvoted!",
+  "data": {
+    "upvotes": 16,
+    "_id": "5bd2e624a0f4cf071ed5e445",
+    "book_name": "blockchain",
+    "type_no": 22,
+    "description": "blockcanin",
+    "__v": 0
+  }
+}

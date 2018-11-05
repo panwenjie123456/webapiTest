@@ -1,0 +1,75 @@
+[
+  {
+    "_id": "5bd36cafd57e94094795d6ec",
+    "No": 2,
+    "book_name": "blockchain",
+    "author": "zhongbencong",
+    "publisher_name": "publisherA",
+    "price": 50,
+    "__v": 0,
+    "publisher_details": [
+      {
+        "_id": "5bd368b2bd3ca9086763d70f",
+        "upvotes": 0,
+        "publisher_name": "publisherA",
+        "location": "st.r",
+        "year": 1997,
+        "__v": 0
+      }
+    ],
+    "booktype_details": [
+      {
+        "_id": "5bd2e624a0f4cf071ed5e445",
+        "upvotes": 15,
+        "book_name": "blockchain",
+        "type_no": 22,
+        "description": "blockcanin",
+        "__v": 0
+      }
+    ]
+  },
+  {
+    "_id": "5bd371c07167d30a74cf7c1c",
+    "__v": 0,
+    "publisher_details": [],
+    "booktype_details": []
+  },
+  {
+    "_id": "5bd372077167d30a74cf7c1d",
+    "__v": 0,
+    "publisher_details": [],
+    "booktype_details": []
+  },
+  {
+    "_id": "5bd3722904569e0a9d669382",
+    "__v": 0,
+    "publisher_details": [],
+    "booktype_details": []
+  },
+  {
+    "_id": "5bd3724704569e0a9d669383",
+    "__v": 0,
+    "publisher_details": [],
+    "booktype_details": []
+  },
+  {
+    "_id": "5bd3726a04569e0a9d669384",
+    "No": 33,
+    "book_name": "blockchain2",
+    "author": "zhongbencong",
+    "publisher_name": "publisherA",
+    "price": 50,
+    "__v": 0,
+    "publisher_details": [
+      {
+        "_id": "5bd368b2bd3ca9086763d70f",
+        "upvotes": 0,
+        "publisher_name": "publisherA",
+        "location": "st.r",
+        "year": 1997,
+        "__v": 0
+      }
+    ],
+    "booktype_details": []
+  }
+]

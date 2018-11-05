@@ -1,0 +1,50 @@
+[
+  {
+    "upvotes": 15,
+    "_id": "5bd2e624a0f4cf071ed5e445",
+    "book_name": "blockchain",
+    "type_no": 22,
+    "description": "blockcanin",
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd2eb396a5584084905eba9",
+    "book_name": "blcokchain",
+    "type_no": 12,
+    "description": "descriptio",
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd2ece97a7bb908a0d1a340",
+    "book_name": "blcokchain",
+    "type_no": 12,
+    "description": "descriptio",
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd2ed24ea636a08a5e1f0f2",
+    "book_name": "blcokchain",
+    "type_no": 12,
+    "description": "descriptio",
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd2ed464c567d08a835e218",
+    "book_name": "blcokchain",
+    "type_no": 12,
+    "description": "descriptio",
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd36582afbe5a08176188c2",
+    "book_name": "blcokchain",
+    "type_no": 12,
+    "description": "descriptio",
+    "__v": 0
+  }
+]

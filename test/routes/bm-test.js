@@ -2,15 +2,18 @@ let chai = require('chai');
 let chaiHttp = require('chai-http');
 let server = require('../../bin/www');
 let expect = chai.expect;
-
+chai.use(require('chai-things'));
+let supertest = require('supertest');
+let app = require('../../app');
 chai.use(chaiHttp);
 let _ = require('lodash' );
+let request = supertest(app);
 
 describe('Books', function (){
       describe('GET /books',  () => {
           it('should return all the books in an array', function(done) {
-              chai.request(server)
-                .get('/books')
+              
+                request.get('/books')
                 .end((err, res) => {
                     expect(res).to.have.status(200);
                     //expect(res.body).to.be.a('array');
@@ -20,8 +23,8 @@ describe('Books', function (){
                 });
           });
           it('should return one chosen book ', function(done) {
-              chai.request(server)
-                .get('/books/ch')
+             // chai.request(server)
+                request.get('/books/ch')
                 .end((err, res) => {
                     expect(res).to.have.status(200);                  
 					//expect(res.body).to.be.a('array');
@@ -31,8 +34,8 @@ describe('Books', function (){
                 });
           });
           it('should return all details of a book ', function(done) {
-              chai.request(server)
-                .get('/books/1/detail')
+              //chai.request(server)
+                 request.get('/books/1/detail')
                 .end((err, res) => {
                     expect(res).to.have.status(200);
                     //expect(res.body).to.be.a('array');
@@ -44,8 +47,8 @@ describe('Books', function (){
       });   
       describe('GET /books/amounts', () => {
         it('should return a message and total amounts of books', function (done) {
-            chai.request(server)
-                .get('/books/amounts')
+            //chai.request(server)
+                request.get('/books/amounts')
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     done();
@@ -66,8 +69,8 @@ describe('POST/books', function () {
           	"price": 50,
           	"amount": 102
             };
-            chai.request(server)
-                .post('/books')
+            //chai.request(server)
+                request.post('/books')
                 .send(book)
                 .end(function(err, res) {
                     expect(res).to.have.status(200);
@@ -107,8 +110,8 @@ describe('POST/books', function () {
    
 describe('put/books/:id', () => {
         it('should return a message and the book detail updated', function (done) {
-            chai.request(server)
-                .put('/books/5bd373d604569e0a9d669387')
+           // chai.request(server)
+                request.put('/books/5bd373d604569e0a9d669387')
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     expect(res.body).to.have.property('message').equal('book updated!' );
@@ -116,8 +119,8 @@ describe('put/books/:id', () => {
                 });
         });
         it('should return a message and the book amounts added', function (done) {
-            chai.request(server)
-                .put('/books/5bd373d604569e0a9d669387/add')
+           // chai.request(server)
+                request.put('/books/5bd373d604569e0a9d669387/add')
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     expect(res.body).to.have.property('message').equal('Book Successfully updated!' );
@@ -128,8 +131,8 @@ describe('put/books/:id', () => {
 
 describe('delete/books/:id',() => {
             it('should return 404 of invalidedeletion', function(done) {
-                chai.request(server)
-                    .delete('/book/5bd1f08bedb58415c9795b24 ')
+                //chai.request(server)
+                    request.delete('/book/5bd1f08bedb58415c9795b24 ')
                     .end(function(err, res) {
                         expect(res).to.have.status(404);//quqiao
                         expect({ foo: 'book' }).to.deep.equal({ foo: 'book' });
@@ -148,8 +151,8 @@ describe('delete/books/:id',() => {
  describe('booktype', function (){
  		describe('GET /booktype',  () => {
           it('should return all the booktypes in an array', function(done) {
-              chai.request(server)
-                .get('/booktype')
+             // chai.request(server)
+                request.get('/booktype')
                 .end((err, res) => {
                     expect(res).to.have.status(200);
                     //expect(res.body).to.be.a('array');
@@ -159,8 +162,8 @@ describe('delete/books/:id',() => {
                 });
           });
           it('should return one chosen book ', function(done) {
-              chai.request(server)
-                .get('/booktype/bl')
+              //chai.request(server)
+                request.get('/booktype/bl')
                 .end((err, res) => {
                     expect(res).to.have.status(200);                  
 					//expect(res.body).to.be.a('array');
@@ -172,8 +175,8 @@ describe('delete/books/:id',() => {
          });
  		describe('GET /booktype/votes', () => {
         it('should return a message and total amounts of voter', function (done) {
-            chai.request(server)
-                .get('/booktype/votes')
+            //chai.request(server)
+               request .get('/booktype/votes')
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     done();
@@ -189,8 +192,8 @@ describe('delete/books/:id',() => {
                 description: "descriptio",
                 
             };
-            chai.request(server)
-                .post('/booktype')
+            //chai.request(server)
+                request.post('/booktype')
                 .send(booktype)
                 .end(function(err, res) {
                     expect(res).to.have.status(200);
@@ -202,8 +205,8 @@ describe('delete/books/:id',() => {
 });
  		describe('put/booktype/:id',() => {
             it('should return a message and the vote of liked booktype votes added', function(done) {
-                chai.request(server)
-                    .put('/booktype/5bd2e624a0f4cf071ed5e445/vote ')
+                //chai.request(server)
+                    request.put('/booktype/5bd2e624a0f4cf071ed5e445/vote ')
                     .end(function(err, res) {
                          expect(res).to.have.status(200);
                    		 expect(res.body).to.have.property('message').equal('Booktype Successfully Upvoted!' );
@@ -213,8 +216,8 @@ describe('delete/books/:id',() => {
         });
         describe('delete/booktype/:id',() => {
             it('should return 200 of invalidedeletion', function(done) {
-                chai.request(server)
-                    .delete('/booktype/5bd2e624a0f5cf071ed5e445 ')
+                //chai.request(server)
+                    request.delete('/booktype/5bd2e624a0f5cf071ed5e445 ')
                     .end(function(err, res) {
                         expect(res).to.have.status(200);//quqiao
                         expect({ foo: 'booktype' }).to.deep.equal({ foo: 'booktype' });
@@ -230,8 +233,8 @@ describe('delete/books/:id',() => {
  describe('publisher', function (){
  		describe('GET /publisher',  () => {
           it('should return all the publishers in an array', function(done) {
-              chai.request(server)
-                .get('/publisher')
+             // chai.request(server)
+                request.get('/publisher')
                 .end((err, res) => {
                     expect(res).to.have.status(200);
                     //expect(res.body).to.be.a('array');
@@ -244,8 +247,8 @@ describe('delete/books/:id',() => {
          });
  		describe('GET /publisher/votes', () => {
         it('should return a message and total amounts of voter', function (done) {
-            chai.request(server)
-                .get('/publisher/votes')
+            //chai.request(server)
+                request.get('/publisher/votes')
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     done();
@@ -261,8 +264,8 @@ describe('delete/books/:id',() => {
                 year: 1997,
                 
             };
-            chai.request(server)
-                .post('/publisher')
+            //chai.request(server)
+               request.post('/publisher')
                 .send(publisher)
                 .end(function(err, res) {
                     expect(res).to.have.status(200);
@@ -274,8 +277,8 @@ describe('delete/books/:id',() => {
 });
  		describe('put/publisher/:id',() => {
             it('should return a message and the vote of liked publisher votes added', function(done) {
-                chai.request(server)
-                    .put('/publisher/5bc9fd64f7ca9c0dfe946bbc/vote ')
+                //chai.request(server)
+                    request.put('/publisher/5bc9fd64f7ca9c0dfe946bbc/vote ')
                     .end(function(err, res) {
                          expect(res).to.have.status(200);
                    		 expect(res.body).to.have.property('message').equal('Publisher Successfully Upvoted!' );
@@ -285,8 +288,8 @@ describe('delete/books/:id',() => {
         });
         describe('delete/publisher/:id',() => {
             it('should return 200 of invalidedeletion', function(done) {
-                chai.request(server)
-                    .delete('/publisher/5bc9fd64f8ca9c0dfe946bbc ')
+                //chai.request(server)
+                    request.delete('/publisher/5bc9fd64f8ca9c0dfe946bbc ')
                     .end(function(err, res) {
                         expect(res).to.have.status(200);//quqiao
                         expect({ foo: 'publisher' }).to.deep.equal({ foo: 'publisher' });

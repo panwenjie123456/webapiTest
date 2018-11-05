@@ -1,0 +1,50 @@
+[
+  {
+    "upvotes": 9,
+    "_id": "5bc9fd64f7ca9c0dfe946bbc",
+    "publisher_name": "publisher01",
+    "location": "st.winter",
+    "year": 1997,
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd2ece97a7bb908a0d1a341",
+    "publisher_name": "changed",
+    "location": "st.22",
+    "year": 1997,
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd2ed24ea636a08a5e1f0f3",
+    "publisher_name": "changed",
+    "location": "st.22",
+    "year": 1997,
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd2ed464c567d08a835e219",
+    "publisher_name": "changed",
+    "location": "st.22",
+    "year": 1997,
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd36583afbe5a08176188c3",
+    "publisher_name": "changed",
+    "location": "st.22",
+    "year": 1997,
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bd368b2bd3ca9086763d70f",
+    "publisher_name": "publisherA",
+    "location": "st.r",
+    "year": 1997,
+    "__v": 0
+  }
+]

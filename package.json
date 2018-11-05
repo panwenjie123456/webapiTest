@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test":"NODE_ENV=test mocha test/routes/bm-test.js"
+    "test": "NODE_ENV=test mocha test/routes/bm-test.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -26,6 +26,7 @@
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
     "chai-things": "^0.2.0",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "supertest": "^3.3.0"
   }
 }

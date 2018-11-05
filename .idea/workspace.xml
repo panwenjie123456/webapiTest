@@ -317,10 +317,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-27" />
-    <option name="y" value="23" />
+    <option name="x" value="-20" />
+    <option name="y" value="540" />
     <option name="width" value="1280" />
-    <option name="height" value="777" />
+    <option name="height" value="541" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
