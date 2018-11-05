@@ -9,7 +9,18 @@ chai.use(chaiHttp);
 let _ = require('lodash' );
 let request = supertest(app);
 
+//var should = require( 'should' );
+const bookmanage = require("../../routes/bookmanage");
+const booktypemanage = require("../../routes/booktypemanage");
+const publishermanage = require("../../routes/publishermanage");
+
 describe('Books', function (){
+  
+ // beforeEach( function () {
+   //    bookmanage.findAll( 'books' );
+    //} );
+
+ 
       describe('GET /books',  () => {
           it('should return all the books in an array', function(done) {
               
@@ -79,19 +90,19 @@ describe('POST/books', function () {
                 });
 
         });
-
-       /* after(function  (done) {
-            chai.request(server)
-                .get('/books')
+/*
+       after(function  (done) {
+            //chai.request(server)
+                request.get('/books')
                 .end(function(err, res) {
                     let result = _.map(res.body, (book) => {
                         return {
-                    		No: book.No,
-                            book_name: book.book_name,
-                            amount:book.amount,
-                            author:book.author ,  
-                            publisher_name:book.publisher_name, 
-                            price:book.price         
+                    		 No:1,
+                book_name: "namechanged",
+                amount: 102,
+                author: "zhongbencong",
+                publisher_name: "changed",
+                price: 50       
                         };
                     });
                     var p =result.length
