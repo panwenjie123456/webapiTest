@@ -16,9 +16,22 @@ const publishermanage = require("../../routes/publishermanage");
 
 describe('Books', function (){
   
- // beforeEach( function () {
-   //    bookmanage.findAll( 'books' );
-    //} );
+ beforeEach(function(done){
+        var book = new book({ _id:mongoose.Types.ObjectId('5be19351089e9d0b52bb318a'),
+            id : 1,
+            username : "wzt",
+            sex : "male",
+            amountofmessage: 1
+    });
+        book.save(function(err) {
+            done();
+        });
+    });
+
+    afterEach(function(done){
+        book.collection.drop();
+        done();
+    });
 
  
       describe('GET /books',  () => {
@@ -122,7 +135,7 @@ describe('POST/books', function () {
 describe('put/books/:id', () => {
         it('should return a message and the book detail updated', function (done) {
            // chai.request(server)
-                request.put('/books/5bd373d604569e0a9d669387')
+                request.put('/books/5be19351089e9d0b52bb318a')
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     expect(res.body).to.have.property('message').equal('book updated!' );
@@ -131,7 +144,7 @@ describe('put/books/:id', () => {
         });
         it('should return a message and the book amounts added', function (done) {
            // chai.request(server)
-                request.put('/books/5bd373d604569e0a9d669387/add')
+                request.put('/books/5be19351089e9d0b52bb318a/add')
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     expect(res.body).to.have.property('message').equal('Book Successfully updated!' );
@@ -217,7 +230,7 @@ describe('delete/books/:id',() => {
  		describe('put/booktype/:id',() => {
             it('should return a message and the vote of liked booktype votes added', function(done) {
                 //chai.request(server)
-                    request.put('/booktype/5bd2e624a0f4cf071ed5e445/vote ')
+                    request.put('/booktype/5be191d59bd5a00b2e82b524/vote ')
                     .end(function(err, res) {
                          expect(res).to.have.status(200);
                    		 expect(res.body).to.have.property('message').equal('Booktype Successfully Upvoted!' );
@@ -228,7 +241,7 @@ describe('delete/books/:id',() => {
         describe('delete/booktype/:id',() => {
             it('should return 200 of invalidedeletion', function(done) {
                 //chai.request(server)
-                    request.delete('/booktype/5bd2e624a0f5cf071ed5e445 ')
+                    request.delete('/booktype/5be191d59bd5a00b2e82b524 ')
                     .end(function(err, res) {
                         expect(res).to.have.status(200);//quqiao
                         expect({ foo: 'booktype' }).to.deep.equal({ foo: 'booktype' });
@@ -289,7 +302,7 @@ describe('delete/books/:id',() => {
  		describe('put/publisher/:id',() => {
             it('should return a message and the vote of liked publisher votes added', function(done) {
                 //chai.request(server)
-                    request.put('/publisher/5bc9fd64f7ca9c0dfe946bbc/vote ')
+                    request.put('/publisher/5be1920e9bd5a00b2e82b525/vote ')
                     .end(function(err, res) {
                          expect(res).to.have.status(200);
                    		 expect(res.body).to.have.property('message').equal('Publisher Successfully Upvoted!' );

@@ -3,17 +3,17 @@ let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
 let uriUtil = require('mongodb-uri');
-
-var mongodbUri ='mongodb://panwenjie:yzby.971215@ds225703.mlab.com:25703/panwenjie';
-mongoose.connect(mongodbUri);
-mongoose.connect('mongodb://localhost:3000/publisher');
+mongoose.connect('mongodb://localhost:27017/booksdb');
+//var mongodbUri ='mongodb://panwenjie:yzby.971215@ds225703.mlab.com:25703/panwenjie';
+//mongoose.connect(mongodbUri);
+//mongoose.connect('mongodb://localhost:3000/publisher');
 
 let db = mongoose.connection;
 db.on('error', function (err) {
     console.log('Unable to Connect to [ ' + db.name + ' ]', err);
 });
 db.once('open', function () {
-    console.log('Successfully Connected to [ ' + db.name + ' ] on mlab.com');
+    console.log('Successfully Connected to [ ' + db.name + ' ] ');
 });
 
 
