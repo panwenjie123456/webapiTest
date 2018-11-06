@@ -104,7 +104,15 @@ router.deletePublisher = (req, res) => {
             res.json({ message: 'Publisher Successfully Deleted!'});
     });
 }
+router.deleteAll = (req, res) => {
 
+    Publisher.remove({}, function(err) {
+        if (err)
+            res.json({ message: 'Publisher NOT DELETED!', errmsg : err } );
+        else
+            res.json({ message: 'Publisher Successfully Deleted!'});
+    });
+}
 router.findTotalVotes = (req, res) => {
 
     Publisher.find(function(err, publisher) {

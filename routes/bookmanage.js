@@ -67,6 +67,7 @@ router.returntoken=(req, res) => {
 
 
 router.findAll = (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
     // Return a JSON representation of our list
     Book.find(function(err, books) {
         if (err)
@@ -207,9 +208,11 @@ router.update = (req, res) => {
     });
 }
 
+
+
 router.deleteBook = (req, res) => {
 
-    Book.findByIdAndRemove(req.params.id, function(err) {
+    Book.findOneAndRemove({"username":req.params.username}, function(err) {
         if (err)
             res.json({ message: 'Book NOT DELETED!', errmsg : err } );
         else

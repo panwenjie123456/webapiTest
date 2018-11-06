@@ -2,228 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4084c16e-c45a-40e4-bcca-433b7e38ea8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T084754.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T084759.404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T084808.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T085554.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T085651.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T085712.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T085727.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T085752.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T085757.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T085903.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T085920.403.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T085937.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T090007.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T090043.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T090233.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T090245.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T090305.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T090329.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T090335.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T090406.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T090411.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T090422.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T090437.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2018-10-26T090440.200.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/book.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mime" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/semver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/accepts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/accepts/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/aggregate-error/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/aggregate-error/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/any-promise/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/array-flatten/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/array-flatten/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/assertion-error/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/assertion-error/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/async/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/async/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/asynckit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/asynckit/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/balanced-match/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/balanced-match/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/basic-auth/node_modules/safe-buffer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/basic-auth/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/basic-auth/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/qs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/brace-expansion/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/brace-expansion/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/browser-stdout/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browser-stdout/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bson/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bson/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/buffer-equal-constant-time/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bytes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bytes/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cache-content-type/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cache-content-type/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chai-http/node_modules/methods/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chai-http/node_modules/methods/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chai-http/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chai-http/node_modules/qs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chai-http/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chai-http/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chai-things/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chai-things/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chai/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chai/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/clean-stack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clean-stack/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/co/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/co/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/combined-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/combined-stream/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/commander/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/component-emitter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/component-emitter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/concat-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/concat-map/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/content-disposition/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/content-disposition/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/content-type/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/content-type/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cookie-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie-signature/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cookie-signature/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cookie/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookiejar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cookiejar/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/cookies/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cookies/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-util-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/core-util-is/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/debug/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/deep-eql/node_modules/type-detect/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/deep-eql/node_modules/type-detect/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/deep-eql/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/deep-eql/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/deep-equal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/deep-equal/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/delayed-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/delayed-stream/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/delegates/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/delegates/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/depd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/depd/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/destroy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/destroy/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/diff/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/diff/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ecdsa-sig-formatter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ee-first/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ee-first/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ejs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ejs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/encodeurl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/encodeurl/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/error-inject/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/error-inject/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/escape-html/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/escape-html/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/escape-string-regexp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/etag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/etag/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/body-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/iconv-lite/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/depd/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/depd/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/http-errors/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/setprototypeof/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/node_modules/setprototypeof/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/node_modules/raw-body/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/express/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/extend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/extend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/finalhandler/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/finalhandler/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/form-data/node_modules/async/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/node_modules/async/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/form-data/node_modules/mime-db/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/node_modules/mime-db/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/form-data/node_modules/mime-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/node_modules/mime-types/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/form-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/form-data/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/formidable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/formidable/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/forwarded/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/forwarded/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fresh/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fresh/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs.realpath/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fs.realpath/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/glob/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/glob/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-readlink/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/graceful-readlink/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/growl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/growl/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/has-flag/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-flag/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-assert/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-assert/node_modules/http-errors/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-assert/node_modules/statuses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-assert/node_modules/statuses/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-assert/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-assert/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/http-errors/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/iconv-lite/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/indent-string/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/indent-string/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/inflight/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/inflight/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/inherits/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/inherits/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ip-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ip-regex/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-generator-function/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-generator-function/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-ip/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-ip/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/isarray/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/json3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/json3/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/node_modules/ms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jsonwebtoken/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jsonwebtoken/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jwa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jwa/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jws/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jws/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/kareem/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/kareem/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/keygrip/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/keygrip/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/koa-compose/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/koa-compose/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/node_modules/koa-compose/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/koa-convert/node_modules/koa-compose/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/koa-convert/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/koa-convert/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/koa-is-json/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/koa-is-json/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/koa-jwt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/koa-jwt/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/koa-unless/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/koa-unless/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/koa/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/koa/node_modules/debug/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/koa/node_modules/statuses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/koa/node_modules/statuses/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/koa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/koa/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash._baseassign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash._baseassign/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash._basecopy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash._basecopy/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash._basecreate/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash._basecreate/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash._getnative/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash._getnative/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash._isiterateecall/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash._isiterateecall/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.create/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.create/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.get/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.get/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.includes/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.includes/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isarguments/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.isarguments/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.isarray/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isboolean/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.isboolean/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isinteger/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.isinteger/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isnumber/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.isnumber/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isplainobject/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.isplainobject/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.isstring/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.isstring/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.keys/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.keys/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash.once/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash.once/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/media-typer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/media-typer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/memory-pager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/memory-pager/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/merge-descriptors/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/merge-descriptors/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/methods/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/methods/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime-db/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime-db/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime-types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime-types/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimatch/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimatch/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/minimist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/minimist/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mkdirp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/ms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mocha/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mocha/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongo-uri/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongo-uri/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongo/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-uri/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-uri/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongodb/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose-legacy-pluralize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose-legacy-pluralize/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb-core/node_modules/bson/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb-core/node_modules/bson/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb-core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb-core/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/safe-buffer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mongoose/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongoose/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/morgan/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/morgan/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mpath/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mpath/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mquery/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mquery/node_modules/debug/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mquery/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mquery/node_modules/safe-buffer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mquery/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/negotiator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/negotiator/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/on-finished/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-finished/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/on-headers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-headers/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/once/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/once/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/only/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/only/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/p-any/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/p-any/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/p-some/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/p-some/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/parseurl/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/parseurl/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-is-absolute/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/proxy-addr/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/qs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/range-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/range-parser/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/raw-body/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/raw-body/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/reduce-component/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/reduce-component/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regexp-clone/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/regexp-clone/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/require_optional/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/require_optional/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-from/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/resolve-from/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safe-buffer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/safer-buffer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/safer-buffer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/saslprep/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/saslprep/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/send/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/send/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/serve-static/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/serve-static/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/setprototypeof/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/setprototypeof/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sliced/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sliced/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sparse-bitfield/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sparse-bitfield/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/statuses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/statuses/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/string_decoder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/superagent/node_modules/cookiejar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/superagent/node_modules/cookiejar/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/superagent/node_modules/methods/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/superagent/node_modules/methods/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/superagent/node_modules/mime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/superagent/node_modules/mime/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/superagent/node_modules/qs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/superagent/node_modules/qs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/superagent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/superagent/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/combined-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/combined-stream/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/component-emitter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/component-emitter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/cookiejar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/cookiejar/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/debug/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/delayed-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/delayed-stream/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/extend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/extend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/form-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/form-data/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/formidable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/formidable/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/isarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/isarray/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/ms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/readable-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/readable-stream/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/string_decoder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/string_decoder/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/node_modules/superagent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/node_modules/superagent/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supertest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supertest/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/supports-color/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/supports-color/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/toidentifier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/toidentifier/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/type-detect/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/type-detect/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/type-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/type-is/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/unpipe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/unpipe/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/utils-merge/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/utils-merge/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/vary/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vary/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wrappy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/wrappy/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ylru/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ylru/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/bookmanage.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/bookmanage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/booktypemanage.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/booktypemanage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/publishermanage.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/publishermanage.js" afterDir="false" />
@@ -418,24 +219,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="81" />
+          <entry key="js" value="325" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="81" />
+          <entry key="JavaScript" value="325" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="js" value="5" />
+          <entry key="js" value="8" />
           <entry key="www" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="6" />
+          <entry key="JavaScript" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -446,8 +247,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/publishermanage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+            <state relative-caret-position="212">
+              <caret line="112" column="42" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -464,26 +265,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/book.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="59">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/publisher.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="13" />
+              <caret line="6" column="20" selection-start-line="4" selection-start-column="7" selection-end-line="6" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -491,17 +283,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/bookmanage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+            <state relative-caret-position="249">
+              <caret line="230" column="1" lean-forward="true" selection-start-line="212" selection-end-line="230" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/8.12.0/core-modules/module.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/routes/bm-test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="547" column="14" selection-start-line="547" selection-start-column="14" selection-end-line="547" selection-end-column="14" />
+            <state relative-caret-position="270">
+              <caret line="412" column="54" selection-start-line="412" selection-start-column="54" selection-end-line="412" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -509,8 +301,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/booktypemanage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+            <state relative-caret-position="220">
+              <caret line="134" column="1" lean-forward="true" selection-start-line="126" selection-end-line="134" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -518,8 +310,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="304">
+              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -528,7 +320,7 @@
         <entry file="file://$PROJECT_DIR$/models/booktype.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="19" />
+              <caret line="6" column="26" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -546,7 +338,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response5.json" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response63.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -563,10 +355,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/models/book.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/booktypemanage.js" />
         <option value="$PROJECT_DIR$/routes/bookmanage.js" />
+        <option value="$PROJECT_DIR$/routes/booktypemanage.js" />
         <option value="$PROJECT_DIR$/routes/publishermanage.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/test/routes/bm-test.js" />
       </list>
     </option>
   </component>
@@ -593,8 +386,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
-    <option name="y" value="184" />
+    <option name="x" value="57" />
+    <option name="y" value="23" />
     <option name="width" value="1250" />
     <option name="height" value="766" />
   </component>
@@ -636,6 +429,17 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="routes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="bookmanagesyss2.0" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="bookmanagesyss2.0" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="routes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -646,6 +450,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -682,6 +487,131 @@
         </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/books" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;No&quot;:&quot;1&quot;,&quot;book_name&quot;:&quot;blockchain&quot;,&quot;author&quot;:&quot;zhongbencong&quot;,&quot;publisher_name&quot;:&quot;publisherA&quot;,&quot;price&quot;:88} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="PUT" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/booktype/5be19231d34a080b4d180b2c/vote" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;No&quot;:&quot;1&quot;,&quot;book_name&quot;:&quot;blockchain&quot;,&quot;author&quot;:&quot;zhongbencong&quot;,&quot;publisher_name&quot;:&quot;publisherA&quot;,&quot;price&quot;:88} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/booktype" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;No&quot;:&quot;1&quot;,&quot;book_name&quot;:&quot;blockchain&quot;,&quot;author&quot;:&quot;zhongbencong&quot;,&quot;publisher_name&quot;:&quot;publisherA&quot;,&quot;price&quot;:88} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/publisher" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;No&quot;:&quot;1&quot;,&quot;book_name&quot;:&quot;blockchain&quot;,&quot;author&quot;:&quot;zhongbencong&quot;,&quot;publisher_name&quot;:&quot;publisherA&quot;,&quot;price&quot;:88} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:3000" />
+          <option name="urlPath" value="/publisher" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;No&quot;:&quot;1&quot;,&quot;book_name&quot;:&quot;blockchain&quot;,&quot;author&quot;:&quot;zhongbencong&quot;,&quot;publisher_name&quot;:&quot;publisherA&quot;,&quot;price&quot;:88} " />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
           <option name="urlBase" value="http://localhost:3000" />
           <option name="urlPath" value="/books" />
           <option name="headers">
@@ -1893,151 +1823,6 @@
           <option name="textToSend" value="{&quot;No&quot;:3,&quot;book_name&quot;:&quot;blockchain&quot;,&quot;author&quot;:&quot;zhongbencong&quot;,&quot;publisher_name&quot;:&quot;publisherA&quot;,&quot;price&quot;:50} " />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/publisher/5bc9fd64f7ca9c0dfe946bbc" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/x-www-form-urlencoded" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="x-access-token" />
-                <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDA1ODI2MjUsImV4cCI6MTU0MDU4NDA2NX0.qsZHm4UQLmwqc1gVri1br7EQNnRbSghAq2tUVAsLXl0" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;No&quot;:2,&quot;book_name&quot;:&quot;blockchain&quot;,&quot;author&quot;:&quot;zhongbencong&quot;,&quot;publisher_name&quot;:&quot;publisherA&quot;,&quot;price&quot;:50} " />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/publisher" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/x-www-form-urlencoded" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="x-access-token" />
-                <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDA1ODI2MjUsImV4cCI6MTU0MDU4NDA2NX0.qsZHm4UQLmwqc1gVri1br7EQNnRbSghAq2tUVAsLXl0" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;No&quot;:2,&quot;book_name&quot;:&quot;blockchain&quot;,&quot;author&quot;:&quot;zhongbencong&quot;,&quot;publisher_name&quot;:&quot;publisherA&quot;,&quot;price&quot;:50} " />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/books" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/x-www-form-urlencoded" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="x-access-token" />
-                <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDA1ODI2MjUsImV4cCI6MTU0MDU4NDA2NX0.qsZHm4UQLmwqc1gVri1br7EQNnRbSghAq2tUVAsLXl0" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;No&quot;:2,&quot;book_name&quot;:&quot;blockchain&quot;,&quot;author&quot;:&quot;zhongbencong&quot;,&quot;publisher_name&quot;:&quot;publisherA&quot;,&quot;price&quot;:50} " />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/books/amounts" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/x-www-form-urlencoded" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="x-access-token" />
-                <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDA1ODI2MjUsImV4cCI6MTU0MDU4NDA2NX0.qsZHm4UQLmwqc1gVri1br7EQNnRbSghAq2tUVAsLXl0" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;No&quot;:2,&quot;book_name&quot;:&quot;blockchain&quot;,&quot;author&quot;:&quot;zhongbencong&quot;,&quot;publisher_name&quot;:&quot;publisherA&quot;,&quot;price&quot;:50} " />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000" />
-          <option name="urlPath" value="/books/bl" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="*/*" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-Type" />
-                <option name="value" value="application/x-www-form-urlencoded" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="x-access-token" />
-                <option name="value" value="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDA1ODI2MjUsImV4cCI6MTU0MDU4NDA2NX0.qsZHm4UQLmwqc1gVri1br7EQNnRbSghAq2tUVAsLXl0" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="parametersEnabled" value="true" />
-          <option name="haveTextToSend" value="true" />
-          <option name="textToSend" value="{&quot;No&quot;:2,&quot;book_name&quot;:&quot;blockchain&quot;,&quot;author&quot;:&quot;zhongbencong&quot;,&quot;publisher_name&quot;:&quot;publisherA&quot;,&quot;price&quot;:50} " />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
@@ -2093,7 +1878,7 @@
       <workItem from="1540577851264" duration="62000" />
       <workItem from="1540578132227" duration="7136000" />
       <workItem from="1540586469269" duration="36000" />
-      <workItem from="1541508634847" duration="1094000" />
+      <workItem from="1541508634847" duration="5181000" />
     </task>
     <task id="LOCAL-00001" summary="add the delete all function to bookmanage">
       <created>1540478036933</created>
@@ -2134,7 +1919,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52605000" />
+    <option name="totallyTimeSpent" value="56692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2146,7 +1931,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="26" y="23" width="1250" height="766" extended-state="0" />
+    <frame x="57" y="23" width="1250" height="766" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14157853" />
@@ -2155,15 +1940,15 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31305638" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31305638" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32844934" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32789317" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.0727003" />
-      <window_info anchor="bottom" id="REST Client" order="9" sideWeight="0.55123115" weight="0.46735904" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.6988131" />
+      <window_info anchor="bottom" id="REST Client" order="9" sideWeight="0.55123115" weight="0.3620178" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4198813" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.44876885" side_tool="true" weight="0.44050634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2259,34 +2044,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/booktypemanage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/bookmanage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/setup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -2294,24 +2051,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/publishermanage.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb-core/lib/connection/pool.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        <state relative-caret-position="102">
+          <caret line="580" column="62" selection-start-line="580" selection-start-column="62" selection-end-line="580" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/booktype.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/supertest/lib/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="107">
+          <caret line="180" column="5" selection-start-line="180" selection-start-column="5" selection-end-line="180" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/publisher.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="13" />
+          <caret line="6" column="20" selection-start-line="4" selection-start-column="7" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/booktype.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/bookmanage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="230" column="1" lean-forward="true" selection-start-line="212" selection-end-line="230" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/booktypemanage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="134" column="1" lean-forward="true" selection-start-line="126" selection-end-line="134" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/publishermanage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="112" column="42" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/routes/bm-test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="412" column="54" selection-start-line="412" selection-start-column="54" selection-end-line="412" selection-end-column="54" />
         </state>
       </provider>
     </entry>

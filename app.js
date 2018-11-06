@@ -46,6 +46,7 @@ app.put('/booktype/:id/vote', booktypemanage.incrementUpvotes);
 app.delete('/booktype/:id', booktypemanage.deleteBooktype);
 //booktype2
 app.get('/booktype/:book_name', booktypemanage.findByName);
+app.delete('/booktype', booktypemanage.deleteAll);
 //publisher1
 app.get('/publisher', publishermanage.findAll);
 app.get('/publisher/votes', publishermanage.findTotalVotes);
@@ -53,6 +54,7 @@ app.get('/publisher/:id', publishermanage.findOne);
 app.post('/publisher',publishermanage.addPublisher);
 app.put('/publisher/:id/vote', publishermanage.incrementUpvotes);
 app.delete('/publisher/:id', publishermanage.deletePublisher);
+app.delete('/publisher', publishermanage.deleteAll);
 
 
 var setupRouter = require('./routes/setup')

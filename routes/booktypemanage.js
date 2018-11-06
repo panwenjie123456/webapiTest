@@ -116,7 +116,17 @@ router.incrementUpvotes = (req, res) => {
 
 router.deleteBooktype = (req, res) => {
 
-    Booktype.findByIdAndRemove(req.params.id, function(err) {
+    Booktype.findOneAndRemove({"username":req.params.username}, function(err) {
+        if (err)
+            res.json({ message: 'Booktype NOT DELETED!', errmsg : err } );
+        else
+            res.json({ message: 'Booktype Successfully Deleted!'});
+    });
+}
+
+router.deleteAll = (req, res) => {
+
+    Booktype.remove({}, function(err) {
         if (err)
             res.json({ message: 'Booktype NOT DELETED!', errmsg : err } );
         else

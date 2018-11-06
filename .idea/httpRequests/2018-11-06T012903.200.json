@@ -1,0 +1,11 @@
+{
+  "message": "Booktype Successfully Upvoted!",
+  "data": {
+    "upvotes": 1,
+    "_id": "5be19231d34a080b4d180b2c",
+    "book_name": "blcokchain",
+    "type_no": 12,
+    "description": "descriptio",
+    "__v": 0
+  }
+}

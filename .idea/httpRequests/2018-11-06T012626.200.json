@@ -1,0 +1,31 @@
+[
+  {
+    "upvotes": 3,
+    "_id": "5be1920e9bd5a00b2e82b525",
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5be19231d34a080b4d180b2d",
+    "publisher_name": "changed",
+    "location": "st.22",
+    "year": 1997,
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5be194d0d3f3250ba97c9125",
+    "publisher_name": "changed",
+    "location": "st.22",
+    "year": 1997,
+    "__v": 0
+  },
+  {
+    "upvotes": 0,
+    "_id": "5be195a93b2b0c0bcc151a52",
+    "publisher_name": "changed",
+    "location": "st.22",
+    "year": 1997,
+    "__v": 0
+  }
+]

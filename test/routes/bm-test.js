@@ -8,52 +8,112 @@ let app = require('../../app');
 chai.use(chaiHttp);
 let _ = require('lodash' );
 let request = supertest(app);
+var mongoose = require("mongoose");
 
 //var should = require( 'should' );
-const bookmanage = require("../../routes/bookmanage");
-const booktypemanage = require("../../routes/booktypemanage");
-const publishermanage = require("../../routes/publishermanage");
+let book = require('../../models/book');
+let booktype = require('../../models/booktype');
+let publisher = require('../../models/publisher');
 
 describe('Books', function (){
-  
+
  beforeEach(function(done){
-        var book = new book({ _id:mongoose.Types.ObjectId('5be19351089e9d0b52bb318a'),
-            id : 1,
-            username : "wzt",
-            sex : "male",
-            amountofmessage: 1
+        var bm = new book({ _id:mongoose.Types.ObjectId('5be199ba5b93230c31b10187'),
+            "No": 1,
+            "book_name": "blockchain",
+            "amount": 50,
+            "author": "zhongbencong",
+            "publisher_name": "publisherA",
+            "price": 88
+
     });
-        book.save(function(err) {
+     bm.save(function(err) {
             done();
         });
     });
 
-    afterEach(function(done){
-        book.collection.drop();
-        done();
+    beforeEach(function(done){
+        var bt = new booktype({ _id:mongoose.Types.ObjectId('5be1690731a5c256ad574fc1'),
+            book_name:"blockchain",
+            type_no:12,
+            description:"bitcoin"
+        });
+        bt.save(function(err) {
+            done();
+        });
+    });
+    beforeEach(function(done){
+        var pl = new publisher({ _id:mongoose.Types.ObjectId('5be1690731a5c256ad574fd1'),
+            publisher_name:"publisherA",
+            location:"ST.tree",
+            year:1997
+        });
+        pl.save(function(err) {
+            done();
+        });
     });
 
- 
+    //afterEach(function(done){
+      //  book.collection.drop();
+        //done();
+    //});
+
+
       describe('GET /books',  () => {
           it('should return all the books in an array', function(done) {
               
                 request.get('/books')
                 .end((err, res) => {
                     expect(res).to.have.status(200);
-                    //expect(res.body).to.be.a('array');
-                   //expect(res.body).to.eql({});
-                   expect({ foo: 'book' }).to.deep.equal({ foo: 'book' });
+                    expect(res.body).to.be.a('array');
+                   //expect(res.body).to.equal(1);
+                    let result = _.map(res.body, (bm) => {
+                        return { No: bm.No,
+                            book_name: bm.book_name,
+                            amount: bm.amount,
+                            author: bm.author,
+                            publisher_name: bm.publisher_name,
+                            price: bm.price
+                        }
+                    });
+                    expect(result).to.include( {
+                        "No": 1,
+                        "book_name": "blockchain",
+                        "amount": 50,
+                        "author": "zhongbencong",
+                        "publisher_name": "publisherA",
+                        "price": 88  } );
+
+                    book.collection.drop();
                     done();
                 });
           });
           it('should return one chosen book ', function(done) {
              // chai.request(server)
-                request.get('/books/ch')
+                request.get('/books/bl')
                 .end((err, res) => {
                     expect(res).to.have.status(200);                  
-					//expect(res.body).to.be.a('array');
-                    //expect(res.body).to.have.property('message').equal('Book NOT founded!');
-                    expect({ foo: 'book' }).to.deep.equal({ foo: 'book' });
+					expect(res.body).to.be.a('array');
+                    let result = _.map(res.body, (bm) => {
+                        return { No: bm.No,
+                            book_name: bm.book_name,
+                            amount: bm.amount,
+                            author: bm.author,
+                            publisher_name: bm.publisher_name,
+                            price: bm.price
+                        }
+                    });
+                    expect(result).to.include( {
+                        "No": 1,
+                        "book_name": "blockchain",
+                        "amount": 50,
+                        "author": "zhongbencong",
+                        "publisher_name": "publisherA",
+                        "price": 88  } );
+
+                    book.collection.drop();
+
+
                     done();
                 });
           });
@@ -62,9 +122,8 @@ describe('Books', function (){
                  request.get('/books/1/detail')
                 .end((err, res) => {
                     expect(res).to.have.status(200);
-                    //expect(res.body).to.be.a('array');
-                   expect({ foo: 'book' }).to.deep.equal({ foo: 'book' });
-     //               expect(res.body).to.have.property('message').equal('Book NOT founded!');
+                    expect(res.body).to.be.a('array');
+
                     done();
                 });
           });
@@ -86,12 +145,12 @@ describe('POST/books', function () {
         it('should return confirmation message and update datastore that add successfully', function(done) {
             let book = {
             "No": 1,
-            "book_name": "namechanged",
+            "book_name": "blockchain",
           	"amount": 102,
           	"author": "zhongbencong",
           	"publisher_name": "changed",
           	"price": 50,
-          	"amount": 102
+
             };
             //chai.request(server)
                 request.post('/books')
@@ -112,7 +171,7 @@ describe('POST/books', function () {
                         return {
                     		 No:1,
                 book_name: "namechanged",
-                amount: 102,
+
                 author: "zhongbencong",
                 publisher_name: "changed",
                 price: 50       
@@ -122,20 +181,20 @@ describe('POST/books', function () {
                     expect(result[p-1]).to.include( {
                 No:1,
                 book_name: "namechanged",
-                amount: 102,
+
                 author: "zhongbencong",
                 publisher_name: "changed",
                 price: 50 } );
                     done();
                 });
         });
-    */
+*/
  });
    
 describe('put/books/:id', () => {
         it('should return a message and the book detail updated', function (done) {
            // chai.request(server)
-                request.put('/books/5be19351089e9d0b52bb318a')
+                request.put('/books/5be199ba5b93230c31b10187')
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     expect(res.body).to.have.property('message').equal('book updated!' );
@@ -144,7 +203,7 @@ describe('put/books/:id', () => {
         });
         it('should return a message and the book amounts added', function (done) {
            // chai.request(server)
-                request.put('/books/5be19351089e9d0b52bb318a/add')
+                request.put('/books/5be199ba5b93230c31b10187/add')
                 .end(function (err, res) {
                     expect(res).to.have.status(200);
                     expect(res.body).to.have.property('message').equal('Book Successfully updated!' );
@@ -153,22 +212,35 @@ describe('put/books/:id', () => {
         });
  });
 
-describe('delete/books/:id',() => {
-            it('should return 404 of invalidedeletion', function(done) {
+    describe('DELETE /books', function () {
+        describe('DELETE /books/name', function () {
+            it('should return books Successfully Deleted!', function(done) {
                 //chai.request(server)
-                    request.delete('/book/5bd1f08bedb58415c9795b24 ')
+                request.delete('/books/blockchain')
                     .end(function(err, res) {
-                        expect(res).to.have.status(404);//quqiao
-                        expect({ foo: 'book' }).to.deep.equal({ foo: 'book' });
-                        
-                        //expect(res.body).to.have.property('message').equal('Book NOT DELETED!');
+                        expect(res).to.have.status(200);
+                        let information = res.body.message;
+                        expect(information).to.include('Book Successfully Deleted!');
                         done();
                     });
             });
         });
 
 
+    describe('DELETE /books', function () {
+        it('should return Information Successfully Deleted!', function(done) {
+            //chai.request(server)
+            request.delete('/books')
+                .end(function(err, res) {
+                    expect(res).to.have.status(200);
+                    let information = res.body.message;
+                    expect(information).to.include('Book Successfully Deleted!');
+                    done();
+                });
+        });
+    });
 
+    });
 
 }); 
 
@@ -179,9 +251,9 @@ describe('delete/books/:id',() => {
                 request.get('/booktype')
                 .end((err, res) => {
                     expect(res).to.have.status(200);
-                    //expect(res.body).to.be.a('array');
-                   //expect(res.body).to.eql({});
-                   expect({ foo: 'booktype' }).to.deep.equal({ foo: 'booktype' });
+                    expect(res.body).to.be.a('array');
+
+
                     done();
                 });
           });
@@ -190,9 +262,9 @@ describe('delete/books/:id',() => {
                 request.get('/booktype/bl')
                 .end((err, res) => {
                     expect(res).to.have.status(200);                  
-					//expect(res.body).to.be.a('array');
-                    //expect(res.body).to.have.property('message').equal('Book NOT founded!');
-                    expect({ foo: 'booktype' }).to.deep.equal({ foo: 'booktype' });
+					expect(res.body).to.be.a('array');
+
+
                     done();
                 });
           });
@@ -230,7 +302,7 @@ describe('delete/books/:id',() => {
  		describe('put/booktype/:id',() => {
             it('should return a message and the vote of liked booktype votes added', function(done) {
                 //chai.request(server)
-                    request.put('/booktype/5be191d59bd5a00b2e82b524/vote ')
+                    request.put('/booktype/5be1690731a5c256ad574fc1/vote ')
                     .end(function(err, res) {
                          expect(res).to.have.status(200);
                    		 expect(res.body).to.have.property('message').equal('Booktype Successfully Upvoted!' );
@@ -241,16 +313,26 @@ describe('delete/books/:id',() => {
         describe('delete/booktype/:id',() => {
             it('should return 200 of invalidedeletion', function(done) {
                 //chai.request(server)
-                    request.delete('/booktype/5be191d59bd5a00b2e82b524 ')
+                    request.delete('/booktype/5be1690731a5c256ad574fc1 ')
                     .end(function(err, res) {
                         expect(res).to.have.status(200);//quqiao
-                        expect({ foo: 'booktype' }).to.deep.equal({ foo: 'booktype' });
-                        
-                        //expect(res.body).to.have.property('message').equal('Book NOT DELETED!');
+                        expect(res.body).to.have.property('message').equal('Booktype Successfully Deleted!');
                         done();
                     });
             });
         });
+     describe('DELETE /booktype', function () {
+         it('should return Information Successfully Deleted!', function(done) {
+             //chai.request(server)
+             request.delete('/booktype')
+                 .end(function(err, res) {
+                     expect(res).to.have.status(200);
+                     let information = res.body.message;
+                     expect(information).to.include('Booktype Successfully Deleted!');
+                     done();
+                 });
+         });
+     });
 
  	});
 
@@ -261,9 +343,7 @@ describe('delete/books/:id',() => {
                 request.get('/publisher')
                 .end((err, res) => {
                     expect(res).to.have.status(200);
-                    //expect(res.body).to.be.a('array');
-                   //expect(res.body).to.eql({});
-                   expect({ foo: 'publisher' }).to.deep.equal({ foo: 'publisher' });
+                    expect(res.body).to.be.a('array');
                     done();
                 });
           });
@@ -302,7 +382,7 @@ describe('delete/books/:id',() => {
  		describe('put/publisher/:id',() => {
             it('should return a message and the vote of liked publisher votes added', function(done) {
                 //chai.request(server)
-                    request.put('/publisher/5be1920e9bd5a00b2e82b525/vote ')
+                    request.put('/publisher/5be1690731a5c256ad574fd1/vote ')
                     .end(function(err, res) {
                          expect(res).to.have.status(200);
                    		 expect(res.body).to.have.property('message').equal('Publisher Successfully Upvoted!' );
@@ -323,5 +403,17 @@ describe('delete/books/:id',() => {
                     });
             });
         });
+     describe('DELETE /publisher', function () {
+         it('should return Information Successfully Deleted!', function(done) {
+             //chai.request(server)
+             request.delete('/publisher')
+                 .end(function(err, res) {
+                     expect(res).to.have.status(200);
+                     let information = res.body.message;
+                     expect(information).to.include('Publisher Successfully Deleted!');
+                     done();
+                 });
+         });
+     });
 
  	});
