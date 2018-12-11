@@ -4,6 +4,8 @@ node_js:
 - stable
 node_js:
 - stable
+script:
+- npm run coverage
 notifications:
    email:
       recipients:

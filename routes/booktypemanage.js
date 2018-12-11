@@ -3,9 +3,9 @@ let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
 let uriUtil = require('mongodb-uri');
-mongoose.connect('mongodb://localhost:27017/booksdb');
-//var mongodbUri ='mongodb://panwenjie:yzby.971215@ds225703.mlab.com:25703/panwenjie';
-//mongoose.connect(mongodbUri);
+//mongoose.connect('mongodb://localhost:27017/booksdb');
+var mongodbUri ='mongodb://panwenjie:yzby.971215@ds225703.mlab.com:25703/panwenjie';
+mongoose.connect(mongodbUri);
 //mongoose.connect('mongodb://localhost:3000/booktype');
 
 let db = mongoose.connection;

@@ -8,12 +8,12 @@ let mongoose = require('mongoose');
 var User = require('../models/user')
 var jwt    = require('jsonwebtoken');
 var config = require('../config');
-mongoose.connect('mongodb://localhost:27017/booksdb');
+//mongoose.connect('mongodb://localhost:27017/booksdb');
 
 // route to authenticate a user (POST http://localhost:3000/api/authenticate)
 
-//var mongodbUri ='mongodb://panwenjie:yzby.971215@ds225703.mlab.com:25703/panwenjie';
-//mongoose.connect(mongodbUri);
+var mongodbUri ='mongodb://panwenjie:yzby.971215@ds225703.mlab.com:25703/panwenjie';
+mongoose.connect(mongodbUri);
 //mongoose.connect('mongodb://localhost:3000/book');
 
 let db = mongoose.connection;
