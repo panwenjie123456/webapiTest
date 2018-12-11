@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4084c16e-c45a-40e4-bcca-433b7e38ea8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube:github link.pages" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -370,8 +366,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="647" />
-    <option name="y" value="258" />
+    <option name="x" value="550" />
+    <option name="y" value="222" />
     <option name="width" value="1250" />
     <option name="height" value="766" />
   </component>
@@ -1863,7 +1859,7 @@
       <workItem from="1540578132227" duration="7136000" />
       <workItem from="1540586469269" duration="36000" />
       <workItem from="1541508634847" duration="5181000" />
-      <workItem from="1544482222840" duration="1106000" />
+      <workItem from="1544482222840" duration="1284000" />
     </task>
     <task id="LOCAL-00001" summary="add the delete all function to bookmanage">
       <created>1540478036933</created>
@@ -1904,7 +1900,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57810000" />
+    <option name="totallyTimeSpent" value="57988000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1916,7 +1912,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="647" y="258" width="1250" height="766" extended-state="1" />
+    <frame x="550" y="222" width="1250" height="766" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1408" />

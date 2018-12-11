@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "publish-coverage": "nyc report --reporter=text-lcov | coveralls",
     "start": "npm-run-all test build server",
     "postbuild": "npm run server",
     "test:watch": "npm run test -- --watch",
@@ -38,6 +39,7 @@
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
     "chai-things": "^0.2.0",
+    "coveralls": "^2.13.1",
     "cross-env": "^5.2.0",
     "mocha": "^3.4.2",
     "nodemon": "^1.18.8",
