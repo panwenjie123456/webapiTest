@@ -14,7 +14,7 @@ var config = require('../config');
 
 var mongodbUri ='mongodb://panwenjie:yzby.971215@ds225703.mlab.com:25703/panwenjie';
 mongoose.connect(mongodbUri);
-//mongoose.connect('mongodb://localhost:3000/book');
+mongoose.connect('mongodb://localhost:3000/book');
 
 let db = mongoose.connection;
 db.on('error', function (err) {

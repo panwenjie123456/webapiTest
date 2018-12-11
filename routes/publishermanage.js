@@ -6,7 +6,7 @@ let uriUtil = require('mongodb-uri');
 //mongoose.connect('mongodb://localhost:27017/booksdb');
 var mongodbUri ='mongodb://panwenjie:yzby.971215@ds225703.mlab.com:25703/panwenjie';
 mongoose.connect(mongodbUri);
-//mongoose.connect('mongodb://localhost:3000/publisher');
+mongoose.connect('mongodb://localhost:3000/publisher');
 
 let db = mongoose.connection;
 db.on('error', function (err) {
