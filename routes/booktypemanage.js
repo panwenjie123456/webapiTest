@@ -124,6 +124,22 @@ router.deleteBooktype = (req, res) => {
     });
 }
 
+router.update = (req, res) => {
+
+    Booktype.findById(req.params.id, function(err,booktype) {
+        if (err)
+            res.send(err);
+        booktype.book_name = req.body.book_name;
+        booktype.type_no = req.body.type_no;
+        booktype.description = req.body.description;
+        booktype.save(function(err){
+            if(err)
+                res.send(err);
+            res.json({message:'booktype updated!'});
+        })
+    });
+}
+
 router.deleteAll = (req, res) => {
 
     Booktype.remove({}, function(err) {

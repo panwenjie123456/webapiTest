@@ -1,3 +1,58 @@
+GET http://localhost:3000/publisher
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisherc","location":"stww","year":1998}
+
+<> 2018-12-20T021629.200.json
+
+###
+
+GET http://localhost:3000/publisher
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisherc","location":"stww","year":1998}
+
+<> 2018-12-20T020747.200.json
+
+###
+
+POST http://localhost:3000/publisher
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"publisher_name":"publisherc","location":"stww","year":1998}
+
+<> 2018-12-20T020744.200.json
+
+###
+
+POST http://localhost:3000/booktype
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"book_name":"blockchain00","type_no":1,"description":"des"}
+
+<> 2018-12-20T122838.200.json
+
+###
+
+GET http://localhost:3000/booktype
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"No":"1","book_name":"blockchain","author":"zhongbencong","publisher_name":"publisherA","price":88}
+
+<> 2018-12-20T122749.200.json
+
+###
+
 POST http://localhost:3000/books
 Accept: */*
 Cache-Control: no-cache
@@ -499,62 +554,6 @@ Content-Type: application/x-www-form-urlencoded
 x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDA1ODQ0NzIsImV4cCI6MTU0MDU4NTkxMn0.MjVhDlnStN9E-iDUZGlN-Vn-jZbfecXpvNmt1FEWF2U
 
 {"No":4,"book_name":"blockchain2","author":"zhongbencong","publisher_name":"publisherA","price":50}
-
-###
-
-GET http://localhost:3000/books
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/x-www-form-urlencoded
-x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NDA1ODQ0NzIsImV4cCI6MTU0MDU4NTkxMn0.MjVhDlnStN9E-iDUZGlN-Vn-jZbfecXpvNmt1FEWF2U
-
-{"No":4,"book_name":"blockchain2","author":"zhongbencong","publisher_name":"publisherA","price":50}
-
-<> 2018-10-26T090905.200.html
-
-###
-
-GET http://localhost:3000/books
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"No":4,"book_name":"blockchain2","author":"zhongbencong","publisher_name":"publisherA","price":50}
-
-<> 2018-10-26T090833.403.json
-
-###
-
-POST http://localhost:3000/books
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"No":4,"book_name":"blockchain2","author":"zhongbencong","publisher_name":"publisherA","price":50}
-
-<> 2018-10-26T090651.200.json
-
-###
-
-POST http://localhost:3000/books
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"No":2,"book_name":"blockchain2","author":"zhongbencong","publisher_name":"publisherA","price":50}
-
-<> 2018-10-26T090646.200.json
-
-###
-
-GET http://localhost:3000/books
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"No":65,"book_name":"blockchain2","author":"zhongbencong","publisher_name":"publisherA","price":50}
-
-<> 2018-10-26T090640.200.html
 
 ###
 

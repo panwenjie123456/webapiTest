@@ -1,0 +1,11 @@
+{
+  "message": "Booktype Successfully Added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5c1ae23690040e097ede9514",
+    "book_name": "blockchain00",
+    "type_no": 1,
+    "description": "des",
+    "__v": 0
+  }
+}

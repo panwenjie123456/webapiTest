@@ -1,0 +1,11 @@
+{
+  "message": "Publisher Successfully Added!",
+  "data": {
+    "upvotes": 0,
+    "_id": "5c1af97090040e097ede9516",
+    "publisher_name": "publisherc",
+    "location": "stww",
+    "year": 1998,
+    "__v": 0
+  }
+}
